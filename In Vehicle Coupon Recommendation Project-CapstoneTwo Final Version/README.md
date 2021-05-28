@@ -2,9 +2,6 @@
 title: "Introduction"
 author: "Shixin Li"
 date: "5/28/2021"
-output:
-  html_document: default
-  pdf_document: default
 ---
 
 ![](pic/headPhoto.png)
