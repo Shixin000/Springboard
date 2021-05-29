@@ -1,15 +1,11 @@
 ---
-title: "Introduction"
 author: "Shixin Li"
 date: "5/28/2021"
-output:
-  html_document: default
-  pdf_document: default
 ---
 
 ![](pic/headPhoto.png)
 
-##Introduction
+## Introduction
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 This data was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. I will apply this data set to train a supervised machine learning model to predict in what situation the drive will accept the coupon. 
@@ -18,12 +14,12 @@ This data was collected via a survey on Amazon Mechanical Turk. The survey descr
 [For More Information, click here.](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation)
 
 
-##Project Organization
+## Project Organization
 
-#####file: 
+##### file: 
 * Project Proposal 
 
-#####data:
+##### data:
 * coupon_data.csv : data set after data warngling, removed the unique column, column with too much missing value(more than 50%), observations with missing... from the original data.
 * coupon_data1.csv : data set after EDA
 * coupon_data2.csv : data set after feature engineering, created dummy variables for categorial features, ready for model training. 
